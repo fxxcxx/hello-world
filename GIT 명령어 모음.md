@@ -20,5 +20,10 @@ git pull origin +master
 
 #### 그 외
 ~~~
-git status
+git status //git 상태보기
+
+git rm -r binary //binary는 폴더 이름
+git commit -m "remove"
+git push origin +master //원격, 로컬 폴더 삭제 3단계
 ~~~
+
