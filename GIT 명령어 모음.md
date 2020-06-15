@@ -16,6 +16,7 @@ git push origin +master
 #### git pull
 ~~~
 git pull origin +master
+git stash // pull 충돌시, 로컬과 원격의 내용 달라지면 충돌 일어남
 ~~~
 
 #### 그 외
