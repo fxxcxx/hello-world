@@ -27,6 +27,7 @@ git status //git 상태보기
 
 git remote -v //로컬-내부 연결 상태 확인
 
+git remote  rm origin //origin 삭제, 추가느 위와 같이 하면 됨
 git rm -r binary //binary는 폴더 이름
 git commit -m "remove"
 git push origin +master //원격, 로컬 폴더 삭제 3단계
